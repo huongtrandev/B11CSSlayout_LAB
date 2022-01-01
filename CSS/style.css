@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(202, 187, 187);
+    position: relative;
+}
+
+.header .logo {
+    width: 7%;
+    padding: 10px;
+}
+
+.header .logo img {
+    width: 100%;
+    float: left;
+    
+}
+
+.header .tm {
+    float: left;
+    padding-left: 0.5%;
+    color: brown;
+    font-size: 35px;
+    padding-top: 1.5%;
+}
+
+@font-face {
+    font-family: "fuckk";
+    src: url(../Fonts/zapfchmi.ttf);
+}
+
+.header .tm h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: "fuckk";
+}
+
+.outer-nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(202, 187, 187);
+    position: relative;
+}
+
+.nav {
+    width: 100%;
+    
+    background-color: rgb(202, 187, 187);
+    position: relative;
+    top: 10px;
+    margin-top: 5px;
+    padding: 0 30% 0 30%;
+}
+
+.nav ul li {
+    text-decoration: none;
+    line-height: 50px;
+    list-style: none;
+    float: left;
+    width: 12%;
+    height: 90%;
+    text-align: center;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+       
+}
+
+.content {
+    width: 100%;
+    position: relative;
+}
+
+.content .left {
+    width: 20%;
+    float: left;
+}
+
+.content .left iframe {
+    width: 100%;
+    margin: 2%;
+}
+
+.content .right {
+    width: 78%;
+    float: left;
+    margin-left: 1.5%
+
+}
+
+.video {
+    width: 80%;
+    margin-top: 2%;
+    padding-left: 12%;
+    text-align: center;
+    
+}
+
